@@ -1,0 +1,76 @@
+.sigWrap{
+	position:relative;
+	padding-right:32px;
+}
+.signatureWrap{
+	height:224px;
+	background:#f8f8f8;
+}
+.signatureWrap .pTip{
+	position:absolute;
+	top:10px;
+	left:10px;
+	line-height:24px;
+	color:#999;
+}
+.sigWrap .tool{
+	position:absolute;
+	top:0;
+	right:0;
+	border-top:1px solid #eee;
+	border-right:1px solid #eee;
+}
+.sigWrap .tool b{
+	position:relative;
+	display:block;
+	width:32px;
+	height:32px;
+	text-align:center;
+	line-height:32px;
+	border-left:1px solid #eee;
+	border-bottom:1px solid #eee;
+	cursor:pointer;
+}
+.sigWrap .tool b.resetBtn{
+	background:url(clear.png) no-repeat center;
+}
+.sigWrap .tool i{
+	position:absolute;
+	top:50%;
+	left:50%;
+	display:block;
+	font-size:0;
+	background:#333;
+}
+.sigWrap .tool b.lineMin i{
+	width:2px;
+	height:2px;
+	margin:-1px 0 0 -1px;
+}
+.sigWrap .tool b.lineMid i{
+	width:4px;
+	height:4px;
+	margin:-2px 0 0 -2px;
+}
+.sigWrap .tool b.lineMax i{
+	width:6px;
+	height:6px;
+	margin:-3px 0 0 -3px;
+}
+.sigWrap .tool b.red i,.sigWrap .tool b.blue i,.sigWrap .tool b.black i{
+	width:12px;
+	height:12px;
+	margin:-6px 0 0 -6px;
+}
+.sigWrap .tool b.red i{
+	background:#f00;
+}
+.sigWrap .tool b.blue i{
+	background:#00f;
+}
+.sigWrap .tool b.black i{
+	background:#000;
+}
+.sigWrap .tool b.active{
+	background:#facf80;
+}
